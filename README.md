@@ -31,8 +31,8 @@ To create short url you can try with postman:
 - Method : POST
 - Request URL : http://localhost:8000/create
 - Param : 
-  -- key : url
-  -- value : http://example.com/this-is-a-very-long-url-bla-bla-bla
+  - key : url
+  - value : http://example.com/this-is-a-very-long-url-bla-bla-bla
 
 result:
 {

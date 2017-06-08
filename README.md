@@ -5,8 +5,8 @@ Shortening url example using go language.
 Installation
 1. Download main.go
 2. Edit your database connection on this code:
-    -> sql.Open("mysql", "root@tcp(127.0.0.1:3306)/db-redirects")
-    -> sql.Open("mysql", "username:password@tcp(yourIpAddress:port)/yourDataabse")
+    - sql.Open("mysql", "root@tcp(127.0.0.1:3306)/db-redirects")
+    - sql.Open("mysql", "username:password@tcp(yourIpAddress:port)/yourDataabse")
 3. Run using this command -> go run main.go
 
 If you got some error, please download the libraries first.

@@ -28,11 +28,11 @@ CREATE TABLE `redirect` (
 ______________________________________________________________________________
 
 To create short url you can try with postman:
-Method : POST
-Request URL : http://localhost:8000/create
-Param : 
-  - key : url
-  - value : http://example.com/this-is-a-very-long-url-bla-bla-bla
+- Method : POST
+- Request URL : http://localhost:8000/create
+- Param : 
+  -- key : url
+  -- value : http://example.com/this-is-a-very-long-url-bla-bla-bla
 
 result:
 {
@@ -43,8 +43,8 @@ result:
 ______________________________________________________________________________
 
 Then you can try GET request:
-Method : GET
-Request URL : http://localhost:8000/5fbbd6
+- Method : GET
+- Request URL : http://localhost:8000/5fbbd6
 
 result:
 {
